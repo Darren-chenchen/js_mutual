@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+
+
+target ‘ios_WKWebview’ do    
+    pod 'WebViewJavascriptBridge'
+    
+    use_frameworks!
+end
